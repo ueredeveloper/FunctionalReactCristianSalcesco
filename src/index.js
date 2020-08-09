@@ -1,12 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+// ----- chapter2 -----//
+//import App from './chapter2/App';
+// ----- chapter3 ------ //
+//import App from './chapter3/App';
+// ----- chapter3 ------ //
+//import App from './chapter4/App';
+// ----- chapter8 ------ //
+import App from './chapter8/App';
+
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
@@ -15,3 +22,5 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+
