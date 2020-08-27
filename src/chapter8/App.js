@@ -1,6 +1,8 @@
 import React, {useState}from 'react';
-import ProductList from '../chapter4/ProductList'; 
 import Header from './Header';
+import ProductList from './ProductList'; 
+import ShoppingCart from './ShoppingCart';
+import './App.css';
 
 const products = [
   {
@@ -14,11 +16,11 @@ const products = [
 ]
 
 
-function App () {
+function App ({products}) {
   
   const [shoppingMap, setShoppingMap] = useState({});
   
-  function addToCart() {
+  function addToCart(product) {
     
   }
   function removeToCart () {
@@ -33,7 +35,11 @@ function App () {
     <div>
       <h1>Chapter 8 - Stateful Functional Components </h1> 
       <Header />
-      <ProductList products={products}/>
+     {/*<ProductList products={products}/>*/} 
+      {/*
+      <ShoppingCart cart={products} 
+        onRemoveClick={removeToCart}/>
+        */} 
     </div>
   )
 }
