@@ -15,10 +15,8 @@ const products = [
 function App () {
   return (
     <div>
-     Murruga
-
-
-https://code.dcoder.tech/files/project/5f2efa6ff83614789d87568e/murruga
+      <h1>Cap. 04</h1>
+      <ProductList products={products} />
     </div>
   )
 }
