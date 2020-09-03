@@ -8,12 +8,12 @@ const products = [
   {
     id: 1,
     name:'mango',
-    quantity: 5
+    quantity: 0
   }, 
   {
     id: 2,
     name:'banana',
-    quantity: 3
+    quantity: 0
   }
 ];
 
@@ -27,32 +27,33 @@ function App () {
     */
   function getProductQuantity(product, map) {  
     const existingProduct = map[product.id];  
-    
+    //console.log("getProdQua"); 
     return (existingProduct) ? existingProduct.quantity : 0;  
   }
+  
   /*   takes a product and a map and returns 
     the new map with the product quantity 
     updated
     */      
-  function addProductToMap(product, map){  
-    const newMap = { ...map };  
-    const quantity = 
+  function addProductToMap (product, map) {  
+    let newMap = { ...map };  
+    let quantity = 
       getProductQuantity(product, map) + 1;  
     newMap[product.id] = { ...product, quantity };  
+    //console.log("addProdToMap"); 
+    
+    console.log(JSON.stringify(shoppingMap)); 
     
     return Object.freeze(newMap);
-  }
+  };
   
-  function addToCart(product) {
-    setShoppingMap(
-      map => addProductToMap(product, map));
-  }
+  function addToCart (product) {
+    setShoppingMap(map => addProductToMap(product, map));
+    //console.log(JSON.stringify(product)); 
+    products.map( p => JSON.stringify(p));
+  };
   
   function removeToCart () {
-    
-  }
-  
-  function addProductToMap (product, map) {
     
   }
   
@@ -65,7 +66,7 @@ function App () {
         products={products}
         onAddClick={addToCart}
         />
-        
+       
       {/*
       <ShoppingCart cart={products} 
         onRemoveClick={removeToCart}/>
