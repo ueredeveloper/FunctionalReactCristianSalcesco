@@ -1,12 +1,15 @@
 import React from 'react';
 import ProductItem from './ProductItem'; 
-
+/*
+  Product List creates interface for a list of 
+    elements (product item )*/
 
 function ProductList ({products}) {
   return (
     <div>
-    {products.map( p => 
-      <ProductItem product={p}/>
+    {/*spread attribute {... product}*/}
+    {products.map( product => 
+      <ProductItem {...product}/>
     )}
     </div>
   )

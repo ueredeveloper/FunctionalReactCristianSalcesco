@@ -5,10 +5,12 @@ const products = [
   {
     id: 1,
     name:'mango',
+    price:'15,00'
   }, 
   {
     id: 2,
-    name:'banana'
+    name:'banana', 
+    price:'25,00'
   }
 ]
 

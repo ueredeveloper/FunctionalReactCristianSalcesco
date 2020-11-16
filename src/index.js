@@ -4,10 +4,10 @@ import ReactDOM from 'react-dom';
 //import App from './chapter2/App';
 // ----- chapter3 ------ //
 //import App from './chapter3/App';
-// ----- chapter3 ------ //
-//import App from './chapter4/App';
+// ----- chapter4 ------ //
+import App from './chapter4/App';
 // ----- chapter8 ------ //
-import App from './chapter8/App';
+//import App from './chapter8/App';
 
 import * as serviceWorker from './serviceWorker';
 

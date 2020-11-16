@@ -27,7 +27,7 @@ function App () {
     */
   function getProductQuantity(product, map) {  
     const existingProduct = map[product.id];  
-    //console.log("getProdQua"); 
+    console.log("getProdQua"); 
     return (existingProduct) ? existingProduct.quantity : 0;  
   }
   
@@ -40,7 +40,7 @@ function App () {
     let quantity = 
       getProductQuantity(product, map) + 1;  
     newMap[product.id] = { ...product, quantity };  
-    //console.log("addProdToMap"); 
+    console.log("addProdToMap"); 
     
     console.log(JSON.stringify(shoppingMap)); 
     
@@ -49,7 +49,7 @@ function App () {
   
   function addToCart (product) {
     setShoppingMap(map => addProductToMap(product, map));
-    //console.log(JSON.stringify(product)); 
+    console.log(JSON.stringify(product)); 
     products.map( p => JSON.stringify(p));
   };
   
@@ -66,11 +66,19 @@ function App () {
         products={products}
         onAddClick={addToCart}
         />
-       
+        
+      {/*(() => {
+        if (shoppingMap) {
+          return <p>{shoppingMap}</p>
+         // console.log(JSON.stringify(shoppingMap));
+        }
+      })()*/}
+      
       {/*
       <ShoppingCart cart={products} 
         onRemoveClick={removeToCart}/>
         */} 
+        
     </div>
   )
 }

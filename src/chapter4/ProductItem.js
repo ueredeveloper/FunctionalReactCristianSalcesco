@@ -1,8 +1,17 @@
 import React from 'react';
 
-function ProductItem ({product}) {  
+/*
+  product item create interface for a 
+    single element 
+  
+  */
+
+function ProductItem ({name, price}) {  
   return (  
-    <div>{product.name}</div>  
+    <div>
+      <h2>Product: {name}</h2>
+      <h3>Price: {price}</h3>
+    </div>  
     );  
 }
 export default ProductItem;

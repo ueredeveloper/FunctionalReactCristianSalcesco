@@ -9,7 +9,8 @@ function ProductList ({products, onAddClick}) {
       <ProductItem product={p} key={p.id}/>
       <input type="button" value="  +  "
         onClick={() => onAddClick(p)}/> 
-      <input type="button" value="  -  "/> 
+      <input type="button" value="  -  "
+                                     /> 
       </>
     )}
     </div>
