@@ -9,7 +9,9 @@ import ReactDOM from 'react-dom';
 // ----- chapter5 ------ //
 //import App from './chapter5/App';
 // ----- chapter6 ------ //
-import App from './chapter6/App';
+//import App from './chapter6/App';
+// ----- chapter7 ------ //
+import App from './chapter7/App';
 // ----- chapter8 ------ //
 //import App from './chapter8/App';
 
