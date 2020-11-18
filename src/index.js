@@ -5,7 +5,11 @@ import ReactDOM from 'react-dom';
 // ----- chapter3 ------ //
 //import App from './chapter3/App';
 // ----- chapter4 ------ //
-import App from './chapter4/App';
+//import App from './chapter4/App';
+// ----- chapter5 ------ //
+//import App from './chapter5/App';
+// ----- chapter6 ------ //
+import App from './chapter6/App';
 // ----- chapter8 ------ //
 //import App from './chapter8/App';
 

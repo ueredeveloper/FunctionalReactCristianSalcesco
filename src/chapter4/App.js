@@ -12,7 +12,7 @@ const products = [
     name:'banana', 
     price:'25,00'
   }
-]
+];
 
 function App () {
   return (
