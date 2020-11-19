@@ -4,13 +4,14 @@
 
 The goal is recreate the examples in the book. 
 
-[Author Examples](https://github.com/cristi-salcescu/functional-react-2/blob/master/CH06%20Presentation%20Components/src/App.jsx)
+[Author Examples](https://github.com/cristi-salcescu/functional-react-2)
 
 [My Github](https://github.com/ueredeveloper/FunctionalReactCristianSalcesco)
 
 16/11/2020 -  Chapter 4, revision \
 18/11/20 - Chapter 6, finished \
-18/11/20 - Chapter 7, beginning 
+18/11/20 - Chapter 7, beginning \
+19/11/20 - Chapter 7, continuing the chapter
 
 
 
