@@ -11,9 +11,9 @@ import ReactDOM from 'react-dom';
 // ----- chapter6 ------ //
 //import App from './chapter6/App';
 // ----- chapter7 ------ //
-import App from './chapter7/App';
+//import App from './chapter7/App';
 // ----- chapter8 ------ //
-//import App from './chapter8/App';
+import App from './chapter8_/App';
 
 import * as serviceWorker from './serviceWorker';
 

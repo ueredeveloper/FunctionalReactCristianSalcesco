@@ -11,7 +11,8 @@ The goal is recreate the examples in the book.
 16/11/2020 -  Chapter 4, revision \
 18/11/20 - Chapter 6, finished \
 18/11/20 - Chapter 7, beginning \
-19/11/20 - Chapter 7, continuing the chapter
+19/11/20 - Chapter 7, continuing the chapter \
+24/11/20 - Chapter 8, re-reading 
 
 
 
