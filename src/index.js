@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // ----- chapter2 -----//
-//import App from './chapter2/App';
+import App from './chapter2/App';
 // ----- chapter3 ------ //
 //import App from './chapter3/App';
 // ----- chapter4 ------ //
@@ -13,7 +13,7 @@ import ReactDOM from 'react-dom';
 // ----- chapter7 ------ //
 //import App from './chapter7/App';
 // ----- chapter8 ------ //
-import App from './chapter8_/App';
+//import App from './chapter8_/App';
 
 import * as serviceWorker from './serviceWorker';
 
